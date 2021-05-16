@@ -1,14 +1,24 @@
 .main_container {
-  width: 200px;
-  height: 200px;
+  width: 20rem;
+  height: 20rem;
   background-color: white;
-  color: blue;
+  color: #082c81;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 16px;
-  padding: 8px;
-  border-radius: 4px;
-  font-size: 24px;
+  margin: 1.6rem;
+  padding: 2.4rem;
+  border-radius: 0.4rem;
+  font-size: 2.4rem;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.25s ease;
+}
+
+.main_container:hover {
+  transform: translate3d(0, -10px, 0);
+  box-shadow: 0 2em 5em 0 rgba(235, 213, 213, 0.1);
 }

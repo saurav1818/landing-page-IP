@@ -1,0 +1,11 @@
+.main_container {
+  display: flex;
+  justify-content: space-around;
+  padding: 4rem;
+}
+
+@media (max-width: 500px) {
+  .main_container {
+    flex-wrap: wrap;
+  }
+}
