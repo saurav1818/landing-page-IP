@@ -1,0 +1,18 @@
+.main_container {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_container_heading {
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.main_container_summary {
+  max-width: 700px;
+  line-height: 1.5;
+  padding: 16px;
+}

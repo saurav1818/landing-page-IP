@@ -1,0 +1,45 @@
+.main_container {
+  background-color: #352c95;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_container_logo {
+  padding: 8px 24px 24px 24px;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.main_container_description {
+  font-size: 40px;
+  line-height: 1.2;
+  max-width: 500px;
+  text-align: center;
+  padding: 24px;
+}
+
+.main_container_image {
+  padding: 16px;
+}
+
+.main_container_image > img {
+  width: 500px;
+  height: 333px;
+  border-radius: 8px;
+  box-shadow: 10px 10px 5px 0px rgba(162, 162, 216, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(162, 162, 216, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(162, 162, 216, 0.75);
+}
+
+.main_container_text {
+  padding: 24px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.main_container_text > span {
+  color: #ffb631;
+}
